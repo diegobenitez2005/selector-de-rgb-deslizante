@@ -14,16 +14,25 @@
   /* Contenedores */
   
   .contenedor-principal {
+    box-sizing: border-box;
     width: 50vw;
-    max-width: 600px;
+    max-width:600px;
     min-height: 350px;
-    display: flex;
+    
+    display:flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: rgba(113, 161, 212, 0.927);
+    background-color: rgba(255, 255, 255, 0.927);
     border-radius: 50px;
   }
+  .contenedor-principal, h1{
+    display: block;
+    margin-top: 40px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+   
   
   .color {
     padding: 20px;
